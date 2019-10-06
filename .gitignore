@@ -1,0 +1,17 @@
+# Dependency directory
+node_modules
+
+# Screenshots
+reports/screenshots
+
+# Added empty reports folder
+reports/*
+
+#VSCode files
+.vscode/*
+
+#Linter
+.eslintrc.json
+
+#Package-lock
+package-lock.json
