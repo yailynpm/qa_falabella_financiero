@@ -30,7 +30,7 @@ function runTest(iteration, browser) {
                 .src('./test.js')
                 .screenshots('reports/screenshots/', true)
                 .browsers(browser)
-                .run({skipJsErrors: true})
+                .run({skipJsErrors: true, selectorTimeout:50000})
                 .catch(function(error) {
                     console.error(error);
                 });
