@@ -22,9 +22,9 @@ Automatización de consulta de sucursales utilizando [TestCafé] y [CucumberJS]
 
 ## Running tests
 
-`npm test-chrome`
-`npm test-ie`
-`npm test-edge`
+- `npm test-chrome`
+- `npm test-ie`
+- `npm test-edge`
 
 ### Windows
 Cambiar en la sección scripts `.\node_modules\.bin\cucumber-js.cmd`
